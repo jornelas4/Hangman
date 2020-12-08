@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #EFEFEF; /*light gray*/
+    color: #004080; /*dark gray */
+}
+.main{
+    padding: 70px 0;
+    border: 3px ;
+    text-align: center;
+
+}
+
+.category{
+    padding: 70px 0;
+    border: 3px ;
+    text-align: center;
+}
+
+
+h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 100px;
+    font-weight: 1500;
+    text-transform: uppercase;
+}
+
+h2{
+    color: red;
+    font-weight: bold;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#icon {
+    height: 100px;
+    display: block;
+    margin: -10px auto;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+}
+
+.used {
+    border: #6B7A8F;
+    background: #6B7A8F;
+}
+.imageNumber{
+    display: block;
+}
+
+#container > div {
+    color: #EFEFEF; /*light gray */
+    border: 3px solid; /*green*/
+    background: #4ABDAC; /*green*/
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 5px;
+
+    line-height: 45px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+button {
+    color: #000000; /*light gray */
+    border: 1px solid #004080; /*orange*/
+    background: #004080; /*orange*/
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+button:hover {
+    border: #6B7A8F;
+    background: #6B7A8F;
+    cursor: pointer;
+    color: #EFEFEF; /*light gray*/
+    text-transform: uppercase;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+button:focus {
+    outline:0;
+}
+
+
+.play-again {
+    margin-top: 20px;
+    width: 190px;
+    height: 45px;
+    background: #4ABDAC; /*green*/
+    border: 1px solid #4ABDAC; /*orange*/
+}
